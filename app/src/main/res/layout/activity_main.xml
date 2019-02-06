@@ -6,10 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
     <Button
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        android:background="@drawable/button"
+        android:text="Button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ripple_effect"
         android:text="Button" />
 
     <TextView
@@ -21,15 +27,6 @@
         android:gravity="center"
         android:padding="10dp"
         android:text="Ripple animation textview" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:background="@drawable/ripple_effect_highlight_color"
-        android:clickable="true"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="Ripple animation highlight color" />
 
     <TextView
         android:layout_width="match_parent"
